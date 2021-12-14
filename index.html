@@ -13,6 +13,9 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">HTML DOM</a>
         </div>
+        <span class="navbar-text">
+          Grupo_5
+        </span>
       </nav>
 
       <div class="container mt-3">
@@ -32,5 +35,24 @@
         </ul>
       </div>
     
+      <div class="container mt-3">
+        <h2>Métodos</h2>
+        <p>Los métodos se definen como <b>acciones</b> que se pueden realizar en elementos HTML</p>
+        <h3>La interfaz de programación DOM</h3>
+        <p>Se puede acceder al DOM HTML con JavaScript (y con otros lenguajes de programación).</p>
+        <p>En el DOM, todos los elementos HTML se definen como objetos.</p>
+        <p>La interfaz de programación son las propiedades y métodos de cada objeto.</p>
+        <h3>Ejemplo</h3>
+        <pre><code>
+          &lt;html&gt;
+            &lt;body&gt;
+              &lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;
+              &lt;script&gt;
+              document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello World!&quot;;
+              &lt;/script&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;</code></pre>
+        <p>En el ejemplo anterior, <code>getElementById</code> es un método, mientras que <code>innerHTML</code> es una propiedad.</p>
+      </div>
 </body>
 </html>
